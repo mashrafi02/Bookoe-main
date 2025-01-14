@@ -1,0 +1,1063 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F9FAFC;
+}
+
+ol,ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color:#11142D;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    max-width: 650px;
+    color:#11142D;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+}
+
+
+/* ####################################### navbar start here ##########################################  */
+.navbar{
+    margin-top: 36px;
+    margin-bottom: 72px;
+}
+
+nav .navbar-brand{
+    margin-right: 122px;
+}
+
+nav .input-group-text{
+    padding: 18px 28px;
+    color: #6C5DD3;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 14px;
+    caret-color: #6C5DD3;
+    cursor: pointer;
+}
+
+nav .input-group-text .fa-square{
+    font-size: 24px;
+    margin-right: 17px;
+}
+
+nav .input-group-text .fa-angle-down{
+    margin-left: 17px;
+    transition: 0.2s;
+}
+
+nav .input-group-text:hover .fa-angle-down{
+    transform: rotate(180deg);
+}
+
+nav .input-group-text .dropdownmenu{
+    width: 182px;
+    box-shadow: 30px 20px 30px -18px rgba(108, 93, 211, 0.25);
+    border-radius: 14px;
+    text-transform: capitalize;
+    position: absolute;
+    z-index: 999;
+    background: #F0EEFF;
+    top: 74px;
+    left: 0;
+    transform: scale(0);
+    transition: all linear 0.1s;
+}
+
+nav .input-group-text:hover .dropdownmenu{
+    transform: scale(1);
+}
+
+nav .input-group-text .dropdownmenu ul li a{
+    display: inline-block;
+    color: #6C5DD3;
+}
+
+nav .input-group-text .dropdownmenu ul li:hover{
+    background: #6C5DD3;
+    border-radius: 14px;
+}
+
+nav .input-group-text .dropdownmenu ul li:hover a{
+    color: #FFF;
+}
+
+nav .input-group-text .fa-magnifying-glass{
+    font-size: 24px;
+}
+
+nav .input-group{
+    max-width: 941px;
+    margin-right: 30px;
+}
+
+nav .input-group .form-control{
+    padding-left: 20px;
+    color: #6C5DD3;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav .input-group .form-control::placeholder{
+    color: #AAA;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+nav .login{
+    margin-right: 18px;
+    padding: 13px 29px;
+    background: #F0EEFF;
+    border: none;
+    border-radius: 14px;
+    color: #6C5DD3;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav .login:hover{
+    background: #6C5DD3;
+}
+
+nav .sign{
+    padding: 13px 41px 13px 32px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 14px;
+    background: #F0EEFF;
+    box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+    color: #6C5DD3;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav .sign:hover{
+    background: #6C5DD3;
+    color: #FFF;
+}
+
+nav .sign i{
+    font-size: 24px;
+    margin-right: 20px;
+}
+/* ####################################### navbar end here ########################################## */
+
+
+/* ####################################### banner start here ##########################################  */
+#banners{
+    margin-bottom: 93px;
+}
+
+#banners .flex-display{
+    display: flex;
+    column-gap: 25px;
+}
+
+#banners .carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #6C5DD3;
+    border: 0;
+    margin: 0px 5px;
+}
+
+#banners .carousel-indicators{
+    justify-content: start;
+    bottom: 92px;
+    left: 90px;
+    margin: 0;
+}
+
+#banners .col-lg-3 img{
+    height: 662px;
+}
+
+#banners .carousel-control-next-icon, #banners .carousel-control-prev-icon{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 50%;
+    color: #FFF;
+}
+/* ####################################### banner end here ########################################## */
+
+
+/* ####################################### feature start here ##########################################  */
+#feature{
+    margin-bottom: 133px;
+}
+
+#feature .item{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+#feature .item .details h3{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#feature .item .details p{
+    color:#AAA;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+/* ####################################### feature end here ########################################## */
+
+
+/* ####################################### popular start here ##########################################  */
+#popular{
+    margin-bottom: 130px;
+}
+
+#popular .card-1{
+    background: url(../images/recomended.png) no-repeat center;
+    background-size: cover;
+    background-color: rgba(255, 117, 76, 0.08);
+    border-radius: 14px;
+}
+
+#popular .card-2{
+    background: url(../images/popular.png) no-repeat center;
+    background-size: cover;
+    background-color: rgba(61, 162, 255, 0.1);
+    border-radius: 14px;
+}
+
+#popular .flex-div{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+#popular .card-1 h2, #popular .card-2 h2{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#popular .card-1 p, #popular .card-2 p{
+    max-width: 512px;
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    margin-bottom: 49px;
+}
+
+#popular .card-1 .carousel-inner .product-images{
+    display: flex;
+    column-gap: 30px;
+}
+
+#popular .card-2 .carousel-inner .product-images{
+    display: flex;
+    column-gap: 30px;
+}
+
+#popular .card-1 .carousel-control-next-icon, #popular .card-2 .carousel-control-next-icon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #FFF;
+    border-radius: 50%;
+    color: black;
+    box-shadow: 0px 25px 33px rgba(108, 93, 211, 0.25);
+    position: absolute;
+    right: 0;
+}
+
+#popular .card-1 .carousel-control-next-icon i, #popular .card-2 .carousel-control-next-icon i{
+    font-size: 24px;
+    vertical-align: middle;
+}
+/* ####################################### popular end here ########################################## */
+
+
+/* ####################################### special-offers start here ##########################################  */
+#special .heading{
+    margin-bottom: 76px;
+}
+
+#special .flex-div{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 41px;
+    margin-bottom: 192px;
+}
+
+#special .flex-div .item{
+    max-width: 512.35px;
+    border-radius: 14px;
+    flex: none;
+}
+
+#special .flex-div .item img{
+    width: 100%;
+}
+
+#special .flex-div .item .details{
+    margin-top: 30px;
+    padding-left: 29px;
+    padding-bottom: 29px;
+}
+
+#special .flex-div .item .details h3{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+#special .flex-div .item .details .type{
+    margin-bottom: 18px;
+}
+
+#special .flex-div .item .details .type span{
+    display: inline-block;
+    padding: 7px 14px;
+    background: #F0EEFF;
+    border-radius: 14px;
+    color:#6C5DD3;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+#special .flex-div .item .details p{
+    max-width: 452.73px;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+#special .flex-div .item .details strong{
+    display: inline-block;
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+#special .flex-div .item .details button{
+    margin-right: 79.4px;
+    padding: 13px 51.5px;
+    border-radius: 14px;
+    border: none;
+    background: #6C5DD3;
+    color:#FFF;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+#special .flex-div .item .details button i{
+    margin-right: 17px;
+}
+
+#special .flex-div .item .details button:hover{
+    background: #F0EEFF;
+    color: #6C5DD3;
+    box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+}
+
+#special .flex-div .item .details span{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 16.5px;
+}
+
+#special .flex-div .item .details .del{
+    color:#AAA;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration-line: strikethrough;
+    position: relative;
+}
+
+#special .flex-div .item .details .del::after{
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background: #AAA;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+#special .flex-div .item:hover{
+    box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+}
+/* ####################################### special-offers end here ########################################## */
+
+
+/* ####################################### flash sale start here ##########################################  */
+#flash .time{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    margin-top: 5px;
+    margin-bottom: 92px;
+}
+
+#flash .time .Time{
+    text-align: center;
+}
+
+#flash .time .Time h4{
+    color:#FF754C;
+    font-family: Cairo;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#flash .time .Time span{
+    display: inline-block;
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+#flash .flash .flex-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+#flash .flash .flex-div .item{
+    flex: none;
+    padding: 20px 23px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+#flash .flash .flex-div .item img{
+    margin-bottom: 18px;
+}
+
+#flash .flash .flex-div .item h3{
+    color:#11142D;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1px;
+}
+
+#flash .flash .flex-div .item .type{
+    display: block;
+    color:#6C5DD3;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 9px;
+}
+
+#flash .flash .flex-div .item .price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+#flash .flash .flex-div .item .price span{
+    display: inline-block;
+    color:#6C5DD3;
+    font-family: Cairo;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#flash .flash .flex-div .item .price .del{
+    display: inline-block;
+    color:#AAA;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+}
+
+#flash .flash .flex-div .item .price .del::after{
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background: #AAA;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+/* ####################################### flash sale end here ########################################## */
+
+
+/* ####################################### books start here ##########################################  */
+#books{
+    margin-bottom: 156px;
+}
+
+#books h2{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 44px;
+}
+
+#books .carousel-item .image-holder{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 38px;
+    position: relative;
+}
+
+#books .carousel-item .image-holder .image .discount span{
+    display: inline-block;
+    padding: 0px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #FF754C;
+    color: #FFF;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 24px;
+}
+
+#books .carousel-item .image-holder .image img{
+    margin-bottom: 18px;
+}
+
+#books .carousel-item .image-holder .image h3{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#books .carousel-item .image-holder .image .type{
+    display: inline-block;
+    color:#6C5DD3;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+
+#books .carousel-item .image-holder .image .rate-price{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 65px;
+}
+
+#books .carousel-item .image-holder .image .rate-price .rate{
+    display: flex;
+    justify-content: start;
+    column-gap: 10px;
+}
+
+#books .carousel-item .image-holder .image .rate-price .rate i{
+    font-size: 24px;
+    color: #FF754C;
+}
+
+#books .carousel-item .image-holder .image .rate-price .rate .score{
+    color:#FF754C;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#books .carousel-item .image-holder .image .rate-price .price span{
+    color:#11142D;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 6px;
+}
+
+#books .carousel-item .image-holder .image .rate-price .price .del{
+    color:#AAA;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+}
+
+#books .carousel-item .image-holder .image .rate-price .price .del::after{
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background: #AAA;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+#books .carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #6C5DD3;
+    border: 0;
+    margin: 0px 5px;
+}
+
+#books .carousel-indicators{
+    justify-content: end;
+    top: -80px;
+    right: 55px;
+    margin: 0;
+}
+
+#books .carousel-control-prev-icon, #books .carousel-control-next-icon{
+    color: #6C5DD3;
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    background:#F0EEFF;
+}
+
+#books .carousel-control-prev{
+    align-items: start;
+    justify-content: end;
+    top: -90px;
+    left: 1190px;
+    z-index: 999;
+
+}
+
+#books .carousel-control-next{
+    align-items: start;
+    justify-content: end;
+    top: -90px;
+}
+/* ####################################### books end here ########################################## */
+
+
+/* ############################################# featured books start here ######################################### */
+#featured-books{
+    background: url(../images/featured-background.png) no-repeat center;
+    background-size: cover;
+    background-color: #F2F0FE;
+    padding: 71px 0px;
+    margin-bottom: 100px;
+}
+
+.featured-banner{
+    margin-top: 26px;
+}
+
+.featured-banner h2{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.featured-banner p{
+    max-width: 453px;
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 59px;
+}
+
+.featured-banner .banner{
+    background: #FFF;
+    box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+    padding: 32px 40px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-banner .details .heading{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.featured-banner .details .heading h3{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.featured-banner .details .heading span{
+    color:#6C5DD3;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.featured-banner .details .synopsis h3{
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.featured-banner .details .synopsis p{
+    max-width: 353px;
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 21px;
+}
+
+.featured-banner .details .info{
+    display: flex;
+    column-gap: 58px;
+    margin-bottom: 25px;
+}
+
+.featured-banner .details .info span{
+    color:#AAA;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+
+.featured-banner .details .info h3{
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.featured-banner .details .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured-banner .details .price strong{
+    color:#11142D;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.featured-banner .details .price strong span{
+    color: var(--Grey-01, #AAA);
+    text-align: center;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: line-through;
+    margin-left: 15px;
+}
+
+.featured-banner .details .price a{
+    display: inline-block;
+    padding: 13px 22px;
+    background:#6C5DD3;
+    color: #FFF;
+    border-radius: 14px;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+.featured-banner .details .price i{
+    margin-right: 13px;
+}
+
+.featured-banner .details .price a:hover{
+    color: #6C5DD3;
+    background: #F0EEFF;
+}
+/* ############################################# featured books end here ######################################### */
+
+
+/* ############################################# latest news start here ######################################### */
+#news{
+    background: #FFF;
+    padding-top: 56px;
+    padding-bottom: 96px;
+}
+
+#news .heading h2{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+#news .heading p{
+    max-width: 584px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* #news .flex-item{
+    justify-self: end;
+} */
+
+#news .flex-item a{
+    padding: 13px 24px;
+    margin-left: 49px;
+    border-radius: 14px;
+    background:#6C5DD3;
+    box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+    color:#FFF;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: all linear 0.3s;
+}
+
+#news .flex-item a i{
+    margin-left: 47px;
+}
+
+#news .flex-item a:hover{
+    color: #6C5DD3;
+    background: #F0EEFF;
+}
+
+#news .item .cover{
+    margin-bottom: 25px;
+}
+
+#news .item h3{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+#news .item p{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+#news .item a{
+    display: inline-block;
+    color:#6C5DD3;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+#news .item .profile{
+    display: flex;
+    column-gap: 21px;
+    align-items: center;
+}
+
+#news .item .profile h4{
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 4px;
+}
+
+#news .item .profile span{
+    color:#AAA;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ############################################# latest news end here ######################################### */
+
+
+/* ############################################# featured books start here ######################################### */
+/* ############################################# featured books end here ######################################### */
+
+
+/* ############################################# featured books start here ######################################### */
+/* ############################################# featured books end here ######################################### */
+
+
+/* ############################################# featured books start here ######################################### */
+/* ############################################# featured books end here ######################################### */
+
+
+/* ############################################# featured books start here ######################################### */
+/* ############################################# featured books end here ######################################### */
