@@ -770,7 +770,7 @@ nav .sign i{
     background-size: cover;
     background-color: #F2F0FE;
     padding: 71px 0px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 .featured-banner{
@@ -957,13 +957,8 @@ nav .sign i{
     line-height: normal;
 }
 
-/* #news .flex-item{
-    justify-self: end;
-} */
-
 #news .flex-item a{
     padding: 13px 24px;
-    margin-left: 49px;
     border-radius: 14px;
     background:#6C5DD3;
     box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
@@ -1047,17 +1042,230 @@ nav .sign i{
 /* ############################################# latest news end here ######################################### */
 
 
-/* ############################################# featured books start here ######################################### */
-/* ############################################# featured books end here ######################################### */
+/* ############################################# status start here ######################################### */
+#status{
+    background: #FFF;
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+
+#status img{
+    margin-bottom: 50px;
+}
+
+#status h3{
+    color:#11142D;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#status span{
+    color:#AAA;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* ############################################# status end here ######################################### */
 
 
-/* ############################################# featured books start here ######################################### */
-/* ############################################# featured books end here ######################################### */
+/* ############################################# subscribe start here ######################################### */
+.sub-wrapper{
+    background: url(../images/subscribe.png) no-repeat center;
+    background-color: #6C5DD3;
+    border-radius: 32px;
+    padding: 69px 0px;
+    box-shadow: 0px 25px 33px 0px rgba(108, 93, 211, 0.25);
+    margin-bottom: 200px;
+}
+
+.sub-wrapper h2{
+    max-width: 693px;
+    color: #FFF;
+    text-align: center;
+    font-family: Cairo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+    margin-bottom: 50px;
+}
+
+.sub-wrapper .input-group{
+    max-width: 652px;
+    height: 68px;
+    border-radius: 14px;
+}
+
+.sub-wrapper .form-control{
+    background: #7C6DE3;
+    color: #E2E2E2;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 32px;
+    border-radius: 14px;
+    border: none;
+}
+
+.sub-wrapper .form-control::placeholder{
+    color: #E2E2E2;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sub-wrapper .btn{
+    border: none;
+    background: #FFF;
+    color:#11142D;
+    font-family: Cairo;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-weight: 700;
+    border-radius: 14px;
+    line-height: 24px;
+}
+/* ############################################# subscribe end here ######################################### */
 
 
-/* ############################################# featured books start here ######################################### */
-/* ############################################# featured books end here ######################################### */
+/* ############################################# footer start here ######################################### */
+#footer .footer-logo{
+    margin-bottom: 35px;
+}
 
+#footer .para{
+    max-width: 425px;
+    color:#11142D;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-bottom: 45px;
+}
 
-/* ############################################# featured books start here ######################################### */
-/* ############################################# featured books end here ######################################### */
+#footer span{
+    display: inline-block;
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+#footer strong{
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+#footer .book-links{
+    display: flex;
+    justify-content: start;
+    column-gap: 69px;
+}
+
+#footer ul li a{
+    display: inline-block;
+    text-transform: capitalize;
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+#footer .book-links ul li .more{
+    color:#6C5DD3;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#footer .book-links ul li .more i{
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+#footer .store{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#footer .item{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    column-gap: 15px;
+    margin-bottom: 20px;
+}
+
+#footer .item p{
+    max-width: 277px;
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#footer .item .item-logo{
+    margin-top: 7px;
+}
+
+#footer .item a{
+    display: inline-block;
+    color:#11142D;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#footer .line{
+    width: 100%;
+    height: 1px;
+    background: #F0F0F0;
+    margin-top: 55px;
+    margin-bottom: 27px;
+}
+
+#footer .copyright{
+    margin-bottom: 27px;
+}
+
+#footer .copyright p{
+    color: #464B70;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* ############################################# footer end here ######################################### */
