@@ -301,9 +301,14 @@
     }
 
     .featured-banner .banner {
+        flex-wrap: wrap;
         padding: 14px 14px;
         border-radius: 10px;
         margin-bottom: 30px;
+    }
+
+    .featured-banner .banner .banner-cover{
+        width: 100%;
     }
 
     .featured-banner .banner .banner-cover {

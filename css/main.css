@@ -789,13 +789,9 @@ nav .sign i{
     padding: 32px 40px;
     border-radius: 14px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.featured-banner .banner .banner-cover{
-    width: 100%;
-}
 
 .featured-banner .details .heading{
     display: flex;
