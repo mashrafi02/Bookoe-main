@@ -200,11 +200,6 @@ nav .sign i{
     margin-bottom: 93px;
 }
 
-#banners .flex-display{
-    display: flex;
-    column-gap: 25px;
-}
-
 #banners .carousel-indicators [data-bs-target]{
     width: 12px;
     height: 12px;
@@ -287,12 +282,6 @@ nav .sign i{
     border-radius: 14px;
 }
 
-#popular .flex-div{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 30px;
-}
-
 #popular .card-1 h2, #popular .card-2 h2{
     color:#11142D;
     font-family: Cairo;
@@ -349,9 +338,6 @@ nav .sign i{
 }
 
 #special .flex-div{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 41px;
     margin-bottom: 192px;
 }
 
@@ -519,8 +505,8 @@ nav .sign i{
 }
 
 #flash .flash .flex-div{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     margin-bottom: 130px;
 }
 
