@@ -242,10 +242,6 @@
         margin-bottom: 110px;
     }
 
-    #books .carousel{
-        left: 30px;
-    }
-
     #books h2 {
         font-size: 35px;
         margin-bottom: 10px;
@@ -254,21 +250,22 @@
 
     #books .carousel-control-prev {
         top: 480px;
-        left: 18px;
+        left: 42px;
     }
 
     #books .carousel-indicators {
         top: 491px;
-        right: 130px;
+        right: 108px;
     }
 
     #books .carousel-control-next {
         top: 480px;
-        right: 82px;
+        right: 60px;
     }
 
     #books .carousel-item .image-holder {
         text-align: center;
+        justify-content: center;
     }
 
     #books .carousel-item .image-holder .image img {
@@ -276,7 +273,7 @@
     }
 
     #books .carousel-item .image-holder .image .discount span {
-        left: 0;
+        left: 29px;
     }
 
     #books .carousel-item .image-holder .image .type {
