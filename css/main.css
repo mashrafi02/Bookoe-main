@@ -789,7 +789,12 @@ nav .sign i{
     padding: 32px 40px;
     border-radius: 14px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.featured-banner .banner .banner-cover{
+    width: 100%;
 }
 
 .featured-banner .details .heading{
@@ -967,6 +972,7 @@ nav .sign i{
 }
 
 #news .item .cover{
+    width: 100%;
     margin-bottom: 25px;
 }
 
@@ -1198,6 +1204,7 @@ nav .sign i{
 }
 
 #footer .store{
+    width: 100%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
