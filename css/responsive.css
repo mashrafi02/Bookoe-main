@@ -80,6 +80,10 @@
         font-size: 14px;
         margin-right: 7px;
     }
+
+    .nav-line {
+        margin-bottom: 24px;
+    }
     /* #################################### navbar end here ############################################# */
 
     
@@ -89,7 +93,41 @@
     }
 
     #banners .carousel-inner .carousel-item img{
-        height: 500px;
+        height: 300px;
+    }
+
+    #banners .carousel-control-prev {
+        left: -24px;
+    }
+
+    #banners .carousel-control-next {
+        right: -24px;
+    }
+
+    #banners .banner-right {
+        padding: 20px 40px;
+    }
+
+    #banners .banner-right h2 {
+        font-size: 36px;
+    }
+
+    #banners .banner-right p {
+        font-size: 14px;
+        margin-bottom: 14px;
+    }
+
+    #banners .banner-right .slide .item h3 {
+        margin-top: -30px;
+    }
+
+    #banners .banner-right .slide .item p {
+        margin-top: 6px;
+        margin-bottom: 18px;
+    }
+
+    #banners .banner-right .slide .item a {
+        padding: 10px 24px;
     }
     /* ########################################### banner end here ############################################## */
 
@@ -204,7 +242,16 @@
 
 
     /* #################################### flash sale start here ############################################# */
+    #flash h2 .flash-shape {
+        position: absolute;
+        z-index: -1;
+        right: 2px;
+        bottom: 18px;
+    }
+
     #flash .time {
+        margin: 0;
+        border: none;
         column-gap: 20px;
         margin-bottom: 0px;
         margin-top: 16px;
